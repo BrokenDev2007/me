@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  /* Use Roboto font */
+  background-color: #f7f7f7;
+  /* Soft gray background */
+}
+
+header {
+  background-color: #333;
+  /* Dark gray header */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.game-preview {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  /* Light gray border between game previews */
+}
+
+.game-img {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 150px;
+  /* Adjusted the maximum width of the image */
+  height: auto;
+}
+
+.game-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.game-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.game-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  /* Remove default link underline */
+}
+
+.game-button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  /* Dark gray footer */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
